@@ -4,7 +4,7 @@ This is a simple GitHub Action that runs ``just --fmt --check`` for all .just fi
 
 ## Sample usage
 
-```
+```yml
 - name: Checkout repository code
   uses: actions/checkout@v4
 - name: Check just syntax
