@@ -8,7 +8,7 @@ This is a simple GitHub Action that runs ``just --fmt --check`` for all .just fi
 - name: Checkout repository code
   uses: actions/checkout@v4
 - name: Check just syntax
-  uses: ublue-os/just-action@v1
+  uses: ublue-os/just-action@v2
 ```
 
 Note: the checkout action before ``just-action`` is required. 
