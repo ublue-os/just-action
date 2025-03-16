@@ -4,7 +4,7 @@ runs:
   using: "composite"
   steps:
     - name: Install just
-      uses: extractions/setup-just@v2
+      uses: extractions/setup-just@v3
     - name: Check just syntax
       run: |
         find "./" -type f -name "*.just" | while read -r file; do
